@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"battlerName":"player","characterIndex":0,"characterName":"player","classId":7,"equips":[0,0,0,2,0],"faceIndex":0,"faceName":"Player","traits":[],"initialLevel":10,"maxLevel":99,"name":"Agent P","nickname":"","note":"","profile":"General monster hunter."},
+{"id":1,"battlerName":"player","characterIndex":0,"characterName":"player","classId":7,"equips":[0,0,0,2,0],"faceIndex":0,"faceName":"Player","traits":[],"initialLevel":1,"maxLevel":99,"name":"Agent P","nickname":"","note":"","profile":"General monster hunter."},
 {"id":2,"battlerName":"agentM","characterIndex":0,"characterName":"agentM","classId":7,"equips":[38,0,0,2,0],"faceIndex":0,"faceName":"agentM","traits":[],"initialLevel":1,"maxLevel":99,"name":"Agent M","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"Actor1_3","characterIndex":2,"characterName":"Actor1","classId":7,"equips":[37,0,65,2,0],"faceIndex":2,"faceName":"Actor1","traits":[],"initialLevel":10,"maxLevel":99,"name":"Agent Q","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"Actor1_4","characterIndex":3,"characterName":"Actor1","classId":7,"equips":[37,0,0,2,0],"faceIndex":3,"faceName":"Actor1","traits":[],"initialLevel":20,"maxLevel":99,"name":"Agent Z","nickname":"","note":"","profile":""},
