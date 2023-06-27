@@ -1,5 +1,5 @@
 //=============================================================================
-// rmmz_scenes.js v1.6.0
+// rmmz_scenes.js v1.7.0
 //=============================================================================
 
 //-----------------------------------------------------------------------------
@@ -326,6 +326,10 @@ Scene_Boot.prototype.start = function() {
         SceneManager.goto(Scene_Battle);
     } else if (DataManager.isEventTest()) {
         DataManager.setupEventTest();
+        SceneManager.goto(Scene_Map);
+    } else if (DataManager.isTitleSkip()) {
+        this.checkPlayerLocation();
+        DataManager.setupNewGame();
         SceneManager.goto(Scene_Map);
     } else {
         this.startNormalGame();
